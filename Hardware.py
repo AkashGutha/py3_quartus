@@ -3,7 +3,7 @@ from tools import escape
 import re
 
 
-class Hardware(object):
+class Hardware():
     """
     All functionality relating to jtag hardware (i.e., a usb-blaster)
     """
@@ -23,8 +23,8 @@ class Hardware(object):
         tcl command: get_device_names
         :return: list of quartus.jtag.Device
         """
-        command = "quartus_stp --tcl_eval get_device_names -hardware_name \"" \
-            + str(escape(self.name)) + "\""
+        command = "quartus_stp_tcl --tcl_eval get_device_names -hardware_name \"{}\"".format(
+            escape(self.name))
         output, error = Popen(command, shell=True, stdout=PIPE,
                               stderr=PIPE).communicate()
         _devices = []
