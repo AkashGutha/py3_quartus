@@ -4,6 +4,8 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# HEX files
+*.hex
 
 # General
 .DS_Store
@@ -218,3 +220,4 @@ xlnx_auto_0_xdb/
 xst/
 _ngo/
 _xmsgs/
+
