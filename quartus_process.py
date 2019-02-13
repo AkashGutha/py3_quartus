@@ -1,8 +1,6 @@
 import sys
 from subprocess import Popen, PIPE
-
 from time import sleep
-
 
 class quartus_thread():
     def __init__(self):
@@ -11,7 +9,8 @@ class quartus_thread():
 
     def run(self):
         self.process = Popen(["quartus_stp_tcl", "-s"],
-                             shell=True, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+                             shell=False, stdin=PIPE, stdout=PIPE, stderr=PIPE, close_fds=True)
+
         tcl_cmd_reached = False
         self.process.stdout.flush()
         found_info = 0

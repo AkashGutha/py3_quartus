@@ -1,5 +1,4 @@
 from quartus_process import quartus_thread
-from time import sleep
 from Hardware import Hardware
 
 
