@@ -5,4 +5,4 @@ from .Hardware import *
 from .tcl_tools import *
 
 
-name = "py3-quartus"
+name = "py3_quartus"
