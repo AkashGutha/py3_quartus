@@ -6,7 +6,7 @@ with open("Readme.md", "r") as fh:
 
 setuptools.setup(
     name="py3-quartus-akash-gutha",
-    version="0.0.1",
+    version="0.0.2",
     author="Akash Gutha",
     author_email="gutha.3@buckeyemail.osu.edu",
     description="Python 3 interface for quartus tcl programming",
