@@ -54,3 +54,7 @@ def write_hex(path, data):
     f.write(':{:02x}{:04x}{:02x}{:02x}\n'.format(0, 0, 1, 0xff))
 
     f.close()
+
+
+def write_2_hex_file(input, target):
+    pass
