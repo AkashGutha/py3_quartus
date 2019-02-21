@@ -5,7 +5,7 @@ with open("Readme.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="py3-quartus-akash-gutha",
+    name="py3-quartus",
     version="0.0.2",
     author="Akash Gutha",
     author_email="gutha.3@buckeyemail.osu.edu",
