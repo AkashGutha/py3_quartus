@@ -12,7 +12,7 @@ setuptools.setup(
     description="Python 3 interface for quartus tcl programming",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AkashGutha/py3-quartus",
+    url="https://github.com/AkashGutha/py3_quartus",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
