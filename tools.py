@@ -14,7 +14,6 @@ def escape(input_string=""):
     return escaped
 
 
-
 def write_hex(path, data):
     """The Write Hex function.
 

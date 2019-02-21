@@ -2,6 +2,7 @@ import sys
 from subprocess import Popen, PIPE
 from time import sleep
 
+
 class quartus_thread():
     def __init__(self):
         self.process = None

@@ -59,4 +59,3 @@ class Device(object):
 
         # print(output)
         # print("error: " + str(error))
-
