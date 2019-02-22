@@ -1,4 +1,4 @@
-from quartus_process import quartus_thread
+from .quartus_process import quartus_thread
 from time import sleep
 
 

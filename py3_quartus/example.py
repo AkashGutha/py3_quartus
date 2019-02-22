@@ -1,7 +1,7 @@
-from Hardware import Hardware
-from Device import Device
-from tools import write_hex
-from tcl_tools import get_device_names, get_hardware_names
+from .Hardware import Hardware
+from .Device import Device
+from .tools import write_hex
+from .tcl_tools import get_device_names, get_hardware_names
 
 connected_hardware = None
 connected_devices = None

@@ -1,6 +1,6 @@
-from tools import escape, write_hex
+from .tools import escape, write_hex
 from subprocess import Popen, PIPE
-from quartus_process import quartus_thread
+from .quartus_process import quartus_thread
 from time import sleep
 from queue import Queue, Empty
 

@@ -1,5 +1,5 @@
 from subprocess import PIPE, Popen
-from tools import escape
+from .tools import escape
 import re
 
 

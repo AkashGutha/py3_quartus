@@ -1,5 +1,5 @@
-from quartus_process import quartus_thread
-from Hardware import Hardware
+from .quartus_process import quartus_thread
+from .Hardware import Hardware
 
 
 def get_hardware_names(thread=None):
