@@ -1,3 +1,5 @@
+__name__ = "py3_quartus"
+
 from .Hardware import Hardware
 from .Device import Device
 from .tools import write_hex
@@ -15,7 +17,7 @@ print("connected devices: " +
       ", ".join([str(device) for device in connected_devices]))
 connected_device = Device(
     name=connected_devices[1], hardware=connected_hardware)
-connected_device.write_to_memory_from_file_2(
+connected_device.write_to_memory_from_file(
     path="memfile.hex", instance_index=1)
 
 

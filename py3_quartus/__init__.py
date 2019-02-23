@@ -4,4 +4,4 @@ from .Device import *
 from .tcl_tools import *
 from .tools import *
 
-name = "py3_quartus"
+__name__ = "py3_quartus"
