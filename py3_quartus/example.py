@@ -18,5 +18,5 @@ print("connected devices: " +
 connected_device = Device(
     name=connected_devices[1], hardware=connected_hardware)
 connected_device.write_to_memory_from_file(
-    path="memfile.hex", instance_index=1)
+    path="memfile.hex", instance_index=0)
 
