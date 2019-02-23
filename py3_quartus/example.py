@@ -20,13 +20,3 @@ connected_device = Device(
 connected_device.write_to_memory_from_file(
     path="memfile.hex", instance_index=1)
 
-
-# import sys
-# from subprocess import Popen, PIPE
-
-# from time import sleep
-
-# output, err = Popen(["quartus_stp", "-t", "a.tcl"],
-#                     shell=True, stdin=PIPE, stdout=PIPE, stderr=PIPE).communicate()
-
-# print(output)
