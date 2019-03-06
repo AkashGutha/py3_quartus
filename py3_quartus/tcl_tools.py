@@ -11,7 +11,7 @@ def get_hardware_names(thread=None):
     output, err = thread.process.communicate("get_hardware_names\n".encode())
     output = str(output).replace("tcl> ", "").replace("\\r\\n", "").replace(
         "{", "").replace("}", "").replace("b'", "").replace("'", "").lstrip().rstrip()
-    return output
+    return [output]
 
 
 def get_device_names(thread=None):
