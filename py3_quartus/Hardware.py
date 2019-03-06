@@ -34,7 +34,6 @@ class Hardware():
 
         devices = re.findall(r'{(.*?)}', str(output))
         for device in devices:
-            print(device)
             _devices.append(device)
 
         return _devices
