@@ -11,7 +11,14 @@ class Device(object):
         self.name = name
         self.hardware = hardware
 
+    def __str__(self):
+        if self.name is None:
+            return "Hardware chain does not exist"
+        else:
+            return self.name
+
     # Write memory content using the hex memory file
+
     def write_to_memory_from_file(self, instance_index=0, path="", memfile_type="hex"):
 
         tcl_lines = [
