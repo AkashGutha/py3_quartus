@@ -4,6 +4,10 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Temporary files
+*.tmp
+*.tmp.tcl
+
 # HEX files
 *.hex
 
