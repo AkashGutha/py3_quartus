@@ -23,6 +23,6 @@ class quartus_thread():
                 found_info = found_info + 1
             else:
                 tcl_cmd_reached = True
-                print("Completed reading Info statements")
+                # print("Completed reading Info statements")
         self.process.stdout.read(5)
-        print("Info lines found: " + str(found_info))
+        # print("Info lines found: " + str(found_info))

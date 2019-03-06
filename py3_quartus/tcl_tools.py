@@ -19,9 +19,8 @@ def get_device_names(thread=None):
         thread = quartus_thread()
     if(thread.process is None):
         thread.run()
-    hardware_name = get_hardware_names(thread)
-    print("Hardware detected: " + hardware_name)
-    hardware = Hardware(str(hardware_name))
+    hardware_names = get_hardware_names(thread)
+    hardware = Hardware(str(hardware_names[0]))
     return hardware.devices
 
 
